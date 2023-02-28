@@ -1,3 +1,18 @@
+## [](#project-description) Project descritption:
+
+This project is find the most domain color on the screen and set it into smart RGB dimmer using Tuya IOT cloud. 
+It's not so fast because of network delays (about 300 ms), but it can be helpful and it looks cool. 
+
+## [](#build-setup) Build and Setup
+0) Install golang
+1) Clone this repo
+2) Enter dir with project
+3) Setup varibles Host, ClientID, Secret, DeviceID. 
+More about auth creadials described below.
+If you have several dimmers put all of them into array.  
+4) run "go build" and then run compiled binary
+4) Enjoy!
+
 ## [](#configuration-of-the-tuya-iot-platform)Configuration of the Tuya IoT Platform
 
 ### [](#create-a-project)Create a project
